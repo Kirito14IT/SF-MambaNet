@@ -33,8 +33,11 @@ wheels/
 # Data files - ignore all .hdf5 files in data_dump
 data_dump/*.hdf5
 
-# Raw data - ignore entire raw_data folder
-raw_data/
+# Raw data - ignore all files in raw_data folder but keep the folder structure
+raw_data/**
+!raw_data/
+!raw_data/.gitkeep
+!raw_data/**/.gitkeep
 
 # Model files in log folder (to keep repo size under 100MB)
 log/**/*.pth
