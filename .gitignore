@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files - ignore all .hdf5 files in data_dump
+data_dump/*.hdf5
+
+# Raw data - ignore entire raw_data folder
+raw_data/
+
+# Model files in log folder (to keep repo size under 100MB)
+log/**/*.pth
+log/**/*.pt
+log/**/*.ckpt
+log/**/*.pth.tar
+
+# Keep log text files but ignore large model checkpoints
+# log/**/*.txt  # Uncomment if you want to ignore log text files too
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
