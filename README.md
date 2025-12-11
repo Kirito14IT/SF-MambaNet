@@ -1,17 +1,11 @@
-# MatchMamba implementation
+# SFMambaNet implementation
 
 This paper focuses on pruning correspondences from an initial set of correspondences with a low inlier ratio.
 
 If you find this project useful, please cite:
 
 ```
-@article{wu2025matchmamba,
-  title={MatchMamba: Correspondence Pruning via Selective State Space Model},
-  author={Wu, Yubin and Li, Xiaojie and Chen, Hao and Yang, Changcai and Wei, Lifang and Chen, Riqing},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
-  year={2025},
-  publisher={IEEE}
-}
+ @ to do
 ```
 
 ## Requirements
@@ -25,7 +19,7 @@ Please use Python 3.10, opencv-python (4.7.0.72), Pytorch (>= 2.1.1+cu118), and 
 For a quick start, clone the repo and download the pretrained model.
 
 ```bash
-git clone https://github.com/Mrwyb/MatchMamba
+git clone https://github.com/Kirito14IT/SFMambaNet
 ```
 
 ### Generate training and testing data
@@ -77,7 +71,7 @@ You can follow the provided example scirpts in `./dump_match` to generate datase
 
 ## Acknowledgement
 
-This code is borrowed from [OANet](https://github.com/zjhthu/OANet) and [CLNet](https://github.com/sailor-z/CLNet). If using the part of code related to data generation, testing and evaluation, please cite these papers.
+This code is borrowed from [OANet](https://github.com/zjhthu/OANet) and [CLNet](https://github.com/sailor-z/CLNet) 和 [MatchMamba]([https://github.com/sailor-z/CLNet](https://github.com/Mrwyb/MatchMamba)). If using the part of code related to data generation, testing and evaluation, please cite these papers.
 
 ```
 @inproceedings{zhang2019learning,
@@ -93,6 +87,13 @@ This code is borrowed from [OANet](https://github.com/zjhthu/OANet) and [CLNet](
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
   pages={6464--6473},
   year={2021}
+}
+@article{wu2025matchmamba,
+  title={MatchMamba: Correspondence Pruning via Selective State Space Model},
+  author={Wu, Yubin and Li, Xiaojie and Chen, Hao and Yang, Changcai and Wei, Lifang and Chen, Riqing},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
